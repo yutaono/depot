@@ -1,0 +1,14 @@
+# encoding: utf-8
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: Yuta Ono
+  address: MyText
+  email: test@example.com
+  pay_type: 現金
+
+two:
+  name: MyString
+  address: MyText
+  email: MyString
+  pay_type: MyString

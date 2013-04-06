@@ -8,7 +8,8 @@
 		<td colspan="2">合計</td>
 		<td class="total_cell"><%= number_to_currency(cart.total_price) %></td>
 	</tr>
-
 </table>
+
+<%= button_to "チェックアウト", new_order_path, method: :get %>
 <%= button_to 'カートを空にする', @cart, method: :delete, confirm: '本当によいですか？' %>
 <% end %>
